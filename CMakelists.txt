@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(vulkan_test)
+project(NitrogenEngine)
  
 # 获取OS信息
 if (CMAKE_HOST_WIN32)

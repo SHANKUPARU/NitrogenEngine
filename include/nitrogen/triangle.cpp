@@ -1,5 +1,5 @@
 #include <cstring>
-#include "Triangle.h"
+#include "triangle.h"
 
 void Triangle::run() {
     this->initVulkan();

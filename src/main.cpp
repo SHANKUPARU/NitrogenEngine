@@ -1,10 +1,9 @@
-#include "Triangle.h"
-
+#include <nitrogen/Triangle.h>
 int main() {
-    Triangle app;
+    Triangle triangle;
 
     try {
-        app.run();
+        triangle.run();
     }
     catch (const std::exception& e) {
         std::cerr << e.what() << std::endl;
